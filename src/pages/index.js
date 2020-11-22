@@ -29,10 +29,10 @@ const BlogIndex = ({ data, location }) => {
       {/*<Bio />*/}
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
+          const title = post.frontmatter.title || post.frontmatter.slug
 
           return (
-            <li key={post.fields.slug}>
+            <li key={post.frontmatter.slug}>
               <article
                 className="post-list-item"
                 itemScope
@@ -40,7 +40,7 @@ const BlogIndex = ({ data, location }) => {
               >
                 <header>
                   <h2>
-                    <Link to={post.fields.slug} itemProp="url">
+                    <Link to={post.frontmatter.slug} itemProp="url">
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
@@ -75,13 +75,11 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt
-        fields {
-          slug
-        }
         frontmatter {
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          slug
         }
       }
     }

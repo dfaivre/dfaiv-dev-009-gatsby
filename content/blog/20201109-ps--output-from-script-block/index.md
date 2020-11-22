@@ -2,6 +2,7 @@
 title: Powershell - Write-Host from Background Script Block
 date: 2020-11-17
 description: ""
+slug: "/20201117-ps-write-host-from-background-script-block"
 ---
 
 I have a Powershell deploy script that runs multiple background tasks in parallel using a [script block](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_script_blocks?view=powershell-7.1). The block was using `Write-Host` but I wasn't getting any output. Turns out I needed to use `Receive-Job` to capture any output.
