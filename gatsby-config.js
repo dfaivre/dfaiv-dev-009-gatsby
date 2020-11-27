@@ -5,7 +5,7 @@ module.exports = {
       name: `dfaiv`,
       summary: ``,
     },
-    description: ``,
+    description: `Dev Notes - Your Mileage May Vary`,
     siteUrl: `https://blog.dfaiv.dev`,
     social: {
       twitter: `[none-yet]`,
