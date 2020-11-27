@@ -8,7 +8,7 @@ module.exports = {
     description: ``,
     siteUrl: `https://blog.dfaiv.dev`,
     social: {
-      twitter: `dfaiv-dev`,
+      twitter: `[none-yet]`,
     },
   },
   plugins: [
@@ -67,7 +67,7 @@ module.exports = {
         short_name: `dfaiv-dev`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#ff92fb`,
         display: `minimal-ui`,
         icon: `content/assets/dfaiv-dev-trainglify-01.png`,
       },
