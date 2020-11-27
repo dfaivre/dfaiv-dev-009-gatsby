@@ -30,7 +30,7 @@
     --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
+    --fontFamily-serif: Merriweather, "Georgia", Cambria, "Times New Roman",
     Times, serif;
     --font-body: var(--fontFamily-serif);
     --font-heading: var(--fontFamily-sans);
@@ -282,7 +282,7 @@ a:focus {
 }
 
 .header-link-home {
-    font-weight: var(--fontWeight-bold);
+    font-weight: var(--fontWeight-normal);
     font-family: var(--font-heading);
     text-decoration: none;
     font-size: var(--fontSize-2);
