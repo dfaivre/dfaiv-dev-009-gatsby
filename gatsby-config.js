@@ -6,7 +6,7 @@ module.exports = {
       summary: ``,
     },
     description: ``,
-    siteUrl: `https://dfaiv-dev-009.netlify.app/`,
+    siteUrl: `https://blog.dfaiv.dev`,
     social: {
       twitter: `dfaiv-dev`,
     },
