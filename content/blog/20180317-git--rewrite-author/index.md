@@ -1,8 +1,8 @@
 ---
 title: git - Rewrite authors
-date: 2020-11-26
+date: 2018-03-17
 description: ""
-slug: "/20201109-ps--output-from-script-block"
+slug: 20180317-git--rewrite-author
 tags: ["git", "devops"]
 ---
 
