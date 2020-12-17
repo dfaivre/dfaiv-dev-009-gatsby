@@ -321,6 +321,10 @@ a:focus {
     margin-bottom: var(--spacing-8);
 }
 
+ul {
+    padding-inline-start: var(--spacing-5);
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
